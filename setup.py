@@ -11,7 +11,7 @@ setup(
     license="GPLv3",
     url="https://github.com/papis/papis-zotero",
     install_requires=[
-        "papis==0.13",
+        "papis @ git+http://git@github.com/papis/papis#egg=papis",
     ],
     classifiers=[
         "Environment :: Console :: Curses",
